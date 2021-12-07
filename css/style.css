@@ -1,0 +1,50 @@
+.container {
+    width:80%;
+    margin: auto;
+}
+.filter-btn {
+   text-align: center;
+} 
+ul.list {
+    list-style: none;
+    height: 70px;
+}
+ul.list li {
+    display: inline-block;
+    width: 80px;
+    height: 100%;
+    border: none;
+    background: #f45;
+    margin-right: 15px;
+    cursor: pointer;
+    color: #fff;
+    line-height: 4;
+    font-size: 17px;
+}
+ul.list li.active {
+    background: rgb(233, 13, 31);
+}
+.item {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr) ;
+    grid-gap: 20px;
+    text-align: center;
+}
+.item-img {
+    width: 100%;
+    height: 70%;
+}
+.item-img.hidden {
+    opacity: .5;
+}
+.item-img.visible {
+    opacity: 1;
+}
+.item-img img {
+    width:100%;
+    height: 100%;
+}
+.spiner {
+    position: abs;
+}
